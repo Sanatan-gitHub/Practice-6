@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-image: url(https://wallup.net/wp-content/uploads/2017/03/29/493887-snow-mountains-landscape.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav-bar-left{
+    font-size: 40px;
+    color: white;
+}
+.nav-bar-content{
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+}
+.middle-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.middle-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: rgb(73, 156, 245);
+}
+.middle-3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+.middle-4{
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    background-color: rgb(73, 156, 245);
+}
+.middle-5{
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    padding: 10px 30px;
+}
+.middle-6{
+    padding-top: 20px;
+}
